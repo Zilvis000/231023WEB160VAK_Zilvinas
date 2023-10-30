@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1.8 HTML</title>
+  </head>
+  <body>
+    <h1>Registracijos forma</h1>
+    <form action="">
+      <fieldset>
+        <legend>STUDENTAS</legend>
+        <table>
+          <tr>
+            <td><label for="Vardas">Vardas:</label></td>
+            <td><input type="text" id="Vardas" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">El. paštas:</label></td>
+            <td><input type="text" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="gimtadienis">Gimimo data</label></td>
+            <td><input type="date" name="" id="gimtadienis" /></td>
+          </tr>
+        </table>
+
+        <label for="feedbackas">Papildoma informacija:</label><br />
+        <textarea id="feedbackas" rows="10" cols="80"></textarea>
+      </fieldset>
+    </form>
+    <h2>Jūsų pomėgiai</h2>
+    <form action="">
+      <fieldset>
+        <legend>PASIRINKITE SAVO POMĖGIUS</legend>
+        <span>Jūsų mėgstamas sportas?</span><br />
+        <label for="first">Krepšinis</label>
+        <input type="checkbox" name="" id="first" />
+        <label for="second">Futbolas</label>
+        <input type="checkbox" name="" id="second" /><br />
+        <label for="third">Tinklinis</label>
+        <input type="checkbox" name="" id="third" />
+        <label for="forth">Bėgimas</label>
+        <input type="checkbox" name="" id="forth" /><br />
+        <label for="fifth">Regbis</label>
+        <input type="checkbox" name="" id="fifth" />
+        <label for="sixt">Boksas</label>
+        <input type="checkbox" name="" id="sixt" /><br /><br />
+        <label for="kaip">Jūsų mėgstamiausias filmo žanras?</label>
+        <select name="kaip" id="Paieška">
+          <option value="Komedija">Komedija</option>
+          <option value="Veiksmo">Veiksmo</option>
+          <option value="Siaubo">Siaubo</option></select
+        ><br /><br />
+        <span>Ar jums patinka keliauti?</span><br />
+        <label for="Ne">Ne</label>
+        <input type="radio" name="grp1" id="Ne" />
+        <label for="Galbūt">Galbūt</label>
+        <input type="radio" name="grp1" id="Galbūt" />
+        <label for="Taip">Taip</label>
+        <input type="radio" name="grp1" id="Taip" /><br /><br />
+        <input type="submit" value="Registruotis" />
+      </fieldset>
+    </form>
+  </body>
+</html>

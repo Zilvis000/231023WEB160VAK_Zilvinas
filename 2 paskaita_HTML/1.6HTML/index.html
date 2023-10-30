@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.6 HTML</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Jūsų informacija</legend>
+            <table>
+                <tr>
+                    <td><label for="Vardas">Vardas:</label></td>
+                    <td><input type="text" id="Vardas"></td>
+                </tr>
+                <tr>
+                    <td><label for="Pavardė">Pavardė:</label></td>
+                    <td><input type="text" id="Pavardė"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>    
+    <form action="">
+        <fieldset>
+            <legend>Klausimai</legend>
+            <label for="kaip">Kaip sužinojote apie mus?</label>
+            <!-- <datalist id="paieska"> -->
+                <!-- paziureti kas kaip veikia select -->
+                <select name="kaip" id="Paieška">Paieška
+                <option value="Google">Google</option>
+                <option value="Yahoo">Yahoo</option>
+                <option value="Bing">Bing</option>
+            </select>
+            </datalist>
+            <p>Ar apsilankysite vėl?</p>
+            <Label for="Taip">Taip</Label>
+            <input type="radio" name="grp1" id="Taip">
+            <label for="Ne">Ne</label>
+            <input type="radio" name="grp1" id="Ne">
+            <label for="Galbūt">Galbūt</label>
+            <input type="radio" name="grp1" id="Galbūt"><br><br>
+            <label for="feedbackas">Ką manote apie kursą?</label><br><br>
+            <textarea id="feedbackas" rows="10" cols="80" placeholder="Rašykite viską ką galvojate"></textarea><br>
+            <p>Pažymėkite programavimo/žymėjimo kalbas, su kuriomis esatę susipažinę</p>
+            <label for="first">C#</label>
+            <input type="checkbox" name="" id="first">
+            <label for="second">Java</label>
+            <input type="checkbox" name="" id="second">
+            <label for="third">PHP</label>
+            <input type="checkbox" name="" id="third"><br>
+
+            <label for="forth">HTML</label>
+            <input type="checkbox" name="" id="forth">
+            <label for="fifth">CSS</label>
+            <input type="checkbox" name="" id="fifth">
+            <label for="sixt">JavaScript</label>
+            <input type="checkbox" name="" id="sixt"><br>
+
+            <label for="seventh">Python</label>
+            <input type="checkbox" name="" id="seventh">
+            <label for="eight">Ruby</label>
+            <input type="checkbox" name="" id="eight"><br><br><br>
+            <button>Siųsti</button>
+        </fieldset>
+    </form>
+</body>
+</html>

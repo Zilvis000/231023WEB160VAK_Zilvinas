@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+}
+
+/* elemento selektorius */
+h1 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Pseudo klasė (hoveris) */
+h1:hover {
+    color: yellow;
+}
+
+/* kombinuotas klases su elementu selektrius */
+.raudonas {
+color: #e75959;
+}
+
+p.raudonas {color: #800606;
+    font-weight: bold;
+}
+/* ID selektorius */
+#main {color: green;
+    background-color: black; 
+}
+
+/* keliu klasiu selektorius */
+h2.sub-title.zalia {
+    text-align: center;
+    font-size: 32px;
+    color: brown;
+}
+/* hierarchinis selektorius */
+table p {
+font-size: 10px;
+}
+/* apima kelis laukus */
+table, th, td {
+    border: 3px solid #058eb8;
+}
+
+.kursyvas {
+font-style: italic;
+}
