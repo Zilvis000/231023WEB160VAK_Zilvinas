@@ -18,7 +18,7 @@ h1 {
 div.side-menu, div.content {
     display: inline-block;
 }
-div.side-menu{
+div.side-menu {
     width: 25%;
     background-color: cadetblue;
 }
