@@ -1,0 +1,66 @@
+:root {
+    /* bet koks pavadinimas */
+    --blue: #80aaff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ffa500;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "side header"
+    "side content"
+    "side footer";
+  background-color: #d89314;
+  width: 90%;
+  margin: 0 auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.header {
+  background-color: var(--blue);
+  grid-area: header;
+  /* grid-column: span 2; */
+}
+.sidemenu {
+  background-color: var(--blue);
+  grid-area: side;
+  /* grid-row: span 3;     */
+}
+.content {
+  background-color: #e180ff;
+  grid-area: content;
+}
+.footer {
+  background-color: #ff8080;
+  grid-area: footer;
+  /* grid-column: span 2; */
+}
+.container div {
+  padding: 20px;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: violet;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "header"
+      "side"
+      "content"
+      "footer";
+    background-color: #1452d8c0;
+    width: 100%;
+  }
+
+}
