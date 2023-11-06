@@ -1,0 +1,60 @@
+.wrapper {
+    margin: 0;
+    width: 30%;
+    padding: 15px;
+    background-color: gray;
+}
+h1 {
+    background-color: rgb(173, 171, 171);
+    padding: 20px;
+    color: rgb(65, 63, 63);
+}
+p {
+    color: white;
+    margin: 0;
+}
+#p0 {
+    background-color: hsl(325, 100%, 50%, 1);
+}
+#p1 {
+    background-color: hsla(325, 100%, 50%, 0.85);
+}
+#p2 {
+    background-color: hsla(325, 100%, 50%, 0.70);
+}
+#p3 {
+    background-color: hsla(325, 100%, 50%, 0.55);
+}
+#p4 {
+    background-color: hsla(325, 100%, 50%, 0.40);
+}
+#p5 {
+    background-color: hsla(325, 100%, 50%, 0.25);
+}
+#p6 {
+    background-color: hsla(325, 100%, 50%, 0.05);
+}
+#p7 {
+    background-color: hsl(125, 53%, 40%);
+}
+#p8 {
+    background-color: hsl(231, 72%, 50%, 0.05);
+}
+#p9 {
+    background-color: hsl(231, 72%, 50%, 0.25);
+}
+#p10 {
+    background-color: hsl(231, 72%, 50%, 0.40);
+}
+#p11 {
+    background-color: hsl(231, 72%, 50%, 0.55);
+}
+#p12 {
+    background-color: hsl(231, 72%, 50%, 0.70);
+}
+#p13 {
+    background-color: hsl(231, 72%, 50%, 0.85);
+}
+#p14 {
+    background-color: hsl(231, 72%, 50%, 1);
+}
