@@ -1,0 +1,34 @@
+.pagr {
+margin: auto;
+width: 50%;
+border-style: double;
+text-align: center;
+}
+
+ul.topnav {
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li a {
+
+  display: block;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  width: 15%;
+
+}
+
+ul.topnav li a:hover:not(:active) {color: red;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
